@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "required": [
+    "deal_id",
+    "status",
+    "discount_pct",
+    "tier1_approval"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "deal_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "discount_pct": {
+      "type": "number"
+    },
+    "tier1_approval": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  }
+}

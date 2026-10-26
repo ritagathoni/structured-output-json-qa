@@ -1,0 +1,40 @@
+[
+  {
+    "id": "J001",
+    "payload": {
+      "deal_id": "SYN-001",
+      "status": "approved",
+      "discount_pct": 12,
+      "tier1_approval": false
+    }
+  },
+  {
+    "id": "J002",
+    "payload": {
+      "deal_id": 128,
+      "status": "pending",
+      "discount_pct": 7,
+      "tier1_approval": false
+    }
+  },
+  {
+    "id": "J003",
+    "payload": {
+      "deal_id": "SYN-003",
+      "status": "approved",
+      "discount_pct": 8,
+      "tier1_approval": true,
+      "approved_by": "Synthetic Reviewer"
+    }
+  },
+  {
+    "id": "J004",
+    "payload": {
+      "deal_id": "SYN-004",
+      "status": "pending",
+      "discount_pct": 5,
+      "tier1_approval": false,
+      "unapproved_field": true
+    }
+  }
+]
